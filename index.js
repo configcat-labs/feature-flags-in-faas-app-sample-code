@@ -9,7 +9,7 @@ functions.http('weather', async (req, res) => {
 const isWeatherInfoFeatureFlagEnabled = await configCatClient.getValueAsync("weatherinfo",  false);
 
 if (isWeatherInfoFeatureFlagEnabled) {
-    const myData = await fetch('http://api.openweathermap.org/data/2.5/weather?q=france&appid=9e3b54f35c574e2bef004720df52675a')
+    const myData = await fetch('http://api.openweathermap.org/data/2.5/weather?q=france&appid=9e3b54f35c574e2bef004720df52675a');
     const myDataAsJson = await myData.json()
     res.send(myDataAsJson);
 } else {
