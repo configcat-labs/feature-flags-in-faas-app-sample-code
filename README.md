@@ -1,22 +1,8 @@
-# How to use feature flags in a FaaS Application
-
-#### (Optional) In case the blog post is already published, please add: [Read the blog post here](https://configcat.com/blog/)
-
-A few words about the contents of the repository. Whats is this application about, what does it demonstrate? Add a backlink to https://configcat.com
-
-## Build & Run
-
-Instructions on how to build and run the application locally. A student or junior developer should be able to run the application.
-- Prerequisites
-- Steps, commands to run
-
-## Learn more
+# How to use feature flags in a FaaS application sample code
 
 Useful links to technical resources.
 
-Example:
-- Next.js Documentation - learn about Next.js features and API.
-- Learn Next.js - an interactive Next.js tutorial.
+- [Google Cloud Functions Documentation](https://cloud.google.com/functions/docs) - learn about Clould Functions and its features.
 
 [**ConfigCat**](https://configcat.com) also supports many other frameworks and languages. Check out the full list of supported SDKs [here](https://configcat.com/docs/sdk-reference/overview/).
 
